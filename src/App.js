@@ -63,6 +63,7 @@ function App() {
       {submitting &&
        <div>
          Tu realizaste Submit para la siguiente información:
+
          <ul>
            {Object.entries(formData).map(([name, value]) => (
              <li key={name}><strong>Nombres</strong>: {value.toString()}</li>
@@ -89,7 +90,8 @@ function App() {
            ))}
          </ul>
        </div>
-      }
+      } 
+
       <form onSubmit={handleSubmit}>
         <fieldset>
           <label>
@@ -115,7 +117,7 @@ function App() {
         </fieldset>
         <button type="submit">Submit</button>
       </form>
-    </div>
+    </div> 
   )
 }
 
