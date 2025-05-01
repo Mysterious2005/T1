@@ -13,6 +13,14 @@
   }
 }
 
+.estilo {
+  padding: 5px 20px;
+}
+
+.estilo fieldset {
+  margin: 60px 0;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
